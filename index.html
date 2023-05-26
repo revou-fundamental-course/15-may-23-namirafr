@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Space+Mono&display=swap">
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <title>Katik</title>
+</head>
+
+<body>
+    <header>
+        <h1><span class="title">Katik</span><br><span class="subtitle">Kalkulator Matematik</span></h1>
+    </header>
+    <main>
+<div class="main">
+
+    <h1>Hello! Welcome to Katik</h1>
+    <hr>
+
+    <h2 style="color:#212b28">Selamat datang</h2>
+    <p style="color:#212b28">Sebuat web apps sederhana yang berfungsi untuk menghitung nilai Luas dan Keliling Bangun Datar</p>
+
+    <!-- Gallery Grid -->
+    <div class="row">
+        <div class="column">
+            <div class="content" style="background:#96bbb2e2">
+                <h2>Luas Persegi</h2>
+                <img src="assets/square.jpg" alt="persegi">
+                <p class="rumus">Rumus Luas Persegi yaitu :</p>
+                <p>
+                    <strong>L = S x S</strong>
+                </p>
+                <p> Di mana :
+                    <br>
+                    L = Luas
+                    <br>
+                    S = Sisi
+                </p>
+                <hr class="break-line">
+                <div id="area">
+                    <h2>Hitung Luas Persegi</h2>
+                        <input type="number" id="sisi-luas" placeholder="Masukan Angka" required>
+
+                        <p id="rumus-luas"></p>
+                        <p id="hitung-luas"></p>
+                        <p id="output_luas"></p>
+                        <br>
+                        <button name="hitung-luas" id="hitung-luas" onclick="hitungLuas()">Hitung</button>
+                        <button name="reset-luas" id="reset-luas" onclick="resetLuas()">Reset</button>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content" style="background:#96bbb2e2">
+                <h2>Keliling Persegi</h2>
+                <img src="assets/square.jpg" alt="aquare">
+                <p class="rumus-keliling">Rumus Keliling Persegi yaitu :</p>
+                <p>
+                    <strong>K = S x 4</strong>
+                </p>
+                <p class="text-left">Di mana :
+                    <br>
+                    K = Keliling
+                    <br>
+                    S = Sisi
+                </p>
+                <hr class="break-line">
+                <div id="circum">
+                        <h2>Hitung Keliling Persegi</h2>
+                            <input type="number" name="sisi-keliling" id="sisi-keliling" placeholder="Masukan Angka" required>
+                        <p id="rumus-keliling"></p>
+                        <p id="hitung-keliling"></p>
+                        <p id="output_keliling"></p>
+                        <br>
+                        <button name="hitung-keliling" id="hitung-keliling" onclick="hitungKeliling()">Hitung</button>
+                        <button name="reset-keliling" id="reset-keliling" onclick="resetKeliling()">Reset</button>
+                    </div>
+            </div>
+        </div>
+        
+        <!-- END GRID -->
+    </div>
+    </main>
+
+    <!-- <footer>
+        Create by Namira Fasya Rahim
+    </footer> -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
