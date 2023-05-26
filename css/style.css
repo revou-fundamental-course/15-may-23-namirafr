@@ -147,6 +147,14 @@
         margin-bottom: 10px;
     }
 
+    #hitung-luas, #hitung-keliling{
+        background: #3c675ce2;
+        border-radius: 5px;
+        padding: 6px 6px;
+        color: rgb(218, 218, 218);
+        font-size: medium;
+    }
+
     #reset-luas, #reset-keliling{
         background: #2a3431e2;
         border-radius: 5px;
