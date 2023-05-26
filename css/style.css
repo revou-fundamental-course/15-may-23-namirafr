@@ -147,7 +147,7 @@
         margin-bottom: 10px;
     }
 
-    #hitung-luas, #hitung-keliling{
+    .button-hitung{
         background: #3c675ce2;
         border-radius: 5px;
         padding: 6px 6px;
